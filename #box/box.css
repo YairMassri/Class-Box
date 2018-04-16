@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    background-image: url("https://gencodegenes.files.wordpress.com/2012/01/numbers.jpg");
+}
+.board{
+    margin-top: 4cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 9.3cm;
+    max-height: 9.3cm;
+    border-top: .1cm solid black;
+    border-left: .1cm solid black;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.col{
+    line-height: 3cm;
+    min-width: 3cm;
+    min-height: 3cm;
+    border-bottom: .1cm solid black;
+    border-right: .1cm solid black;
+    text-align: center;
+    font-size: 25px;
+    background-color: reg(255,255,255);
+
+
+}
